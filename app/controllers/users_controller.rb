@@ -45,12 +45,6 @@ class UsersController < ApplicationController
     counts(@user)
   end
 
-def index
-  if true then
-     logger.debug("if文の中に入りました")
-  end
-end
-
 
   private
   
